@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
-import * as dotevn from "dotenv";
-dotevn.config();
+import * as dotenv from "dotenv";
+dotenv.config();
 
 // Controllers
 import { createPrediction } from "./controllers/flowise.js";
